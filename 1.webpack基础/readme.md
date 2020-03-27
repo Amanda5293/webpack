@@ -24,7 +24,7 @@ Q:
 1. 初始化项目并安装webpack和webpack-cli
 2. 建立需要进行打包的文件 index.js
 
-  ![图片](./imgs/structure.png)
+  ![图片](https://github.com/Amanda5293/webpack/blob/master/1.webpack%E5%9F%BA%E7%A1%80/imgs/structure.PNG)
 
 3. 执行打包
 * cli打包方式：
@@ -37,7 +37,7 @@ Q:
  npx webpack ./src/index.js -o ./dist/bundle.js
 
 ```
-![图片](./imgs/webpack.png)
+![图片](https://github.com/Amanda5293/webpack/blob/master/1.webpack%E5%9F%BA%E7%A1%80/imgs/webpack.PNG)
 
 大多数项目会需要很复杂的设置，这就需要通过配置文件来进行打包；建立 webpack.config.js 来配置打包
 ```
@@ -54,7 +54,7 @@ module.exports = {
 }
 
 ```
-执行 npx webpack --config webpack.config.js 来进行打包；
+执行 npx webpack --config webpack.config.js
 
 * package.json中 *配置 npm scripts* 然后通过 *npm run xxx* 执行
   ```
