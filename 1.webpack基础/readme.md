@@ -54,7 +54,7 @@ module.exports = {
 }
 
 ```
-执行 npx webpack --config webpack.config.js 来进行打包；
+执行 npx webpack --config webpack.config.js
 
 * package.json中 *配置 npm scripts* 然后通过 *npm run xxx* 执行
   ```
