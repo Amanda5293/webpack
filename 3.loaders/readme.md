@@ -88,3 +88,7 @@ Notes:
       use: ['style-loader', 'css-loader', 'less-loader']
     }
   ```
+
+[loader](https://www.webpackjs.com/guides/asset-management/)
+
+[更多loader](https://www.webpackjs.com/loaders/)
