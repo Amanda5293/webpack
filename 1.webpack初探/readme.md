@@ -65,4 +65,4 @@ module.exports = {
     执行 npm run build 进行打包 (默认会去同级找webpack.config.js文件，也可以通过 --config 指定)
   ```
 
-
+[官方文档](https://www.webpackjs.com/guides/getting-started/)
