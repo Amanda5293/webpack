@@ -89,6 +89,6 @@ Notes:
     }
   ```
 
-[loader](https://www.webpackjs.com/guides/asset-management/)
+[loader配置](https://www.webpackjs.com/guides/asset-management/)
 
 [更多loader](https://www.webpackjs.com/loaders/)
