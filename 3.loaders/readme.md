@@ -4,7 +4,7 @@
 
 ## 对图片以及字体的处理
 
-当项目中有使用图片时可以使用 file-loader 或 url-loader 进行打包;
+当项目中有使用图片、字体时可以使用 file-loader 或 url-loader 进行打包;
 
  file-loader: 将图片打包到输入路径，并将路径返回;
 
