@@ -40,7 +40,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
 
 path：输出目录(绝对路径)
 
-filename: 每个输出 bundle 的名称, 文件将位于path指定目录下。可以是一个静态名称比如bundle.js，也可以使用模板字符串的方式： [name] (模块名称) [id](模块标识符) [hash](模块标识符的hash) [chunkhash](chunk 内容的 hash)
+filename: 每个输出 bundle 的名称, 文件将位于path指定目录下。可以是一个静态名称比如bundle.js，也可以使用模板字符串的方式： [name] (模块名称) [ id ](模块标识符) [ hash ](模块标识符的hash) [chunkhash](chunk 内容的 hash)
 ```
 基本输出配置:
   output: {
