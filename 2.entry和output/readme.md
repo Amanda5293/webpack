@@ -9,7 +9,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
 
 1. 单入口
 
-以下几种方式都只会导向到一个chunk里。值为数组时表示想多个依赖一起注入，并将依赖导出到一个
+以下几种方式都只会导向到一个chunk里。值为数组时表示想多个依赖一起注入，并将依赖导出到一个bundle
 ```
   entry: {
     main: './src/index.js'
@@ -20,7 +20,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
   entry: ['./src/index.js', './src/utils.js']
 
 ```
-![图片](./imgs/single-entry.png)
+![图片](https://github.com/Amanda5293/webpack/blob/master/2.entry%E5%92%8Coutput/imgs/single-entry.PNG)
 
 2. 对象语法
 
@@ -32,7 +32,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
   }
 
 ```
-![图片](./imgs/obj-entry.png)
+![图片](https://github.com/Amanda5293/webpack/blob/master/2.entry%E5%92%8Coutput/imgs/obj-entry.PNG)
 
 ## output
 
@@ -50,4 +50,5 @@ filename: 每个输出 bundle 的名称, 文件将位于path指定目录下。�
 ```
 
 [入口和上下文](https://www.webpackjs.com/configuration/entry-context/)
+
 [输出配置](https://www.webpackjs.com/configuration/output/)
