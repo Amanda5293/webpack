@@ -20,7 +20,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
   entry: ['./src/index.js', './src/utils.js']
 
 ```
-![图片](./imgs/single-entry.png)
+![图片](https://github.com/Amanda5293/webpack/blob/master/2.entry%E5%92%8Coutput/imgs/single-entry.PNG)
 
 2. 对象语法
 
@@ -32,14 +32,13 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
   }
 
 ```
-![图片](./imgs/obj-entry.png)
+![图片](https://github.com/Amanda5293/webpack/blob/master/2.entry%E5%92%8Coutput/imgs/obj-entry.PNG)
 
 ## output
 
 配置 output 选项可以控制 webpack 如何向硬盘写入编译文件。
 
 webpack中output的最低要求配置是一个包含 path 和 filename的对象。
-
 
 ```
   output: {
