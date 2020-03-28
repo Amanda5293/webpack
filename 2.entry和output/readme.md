@@ -1,6 +1,6 @@
 # entry和output
 
-### 入口和上下文 (entry和context)
+## 入口和上下文 (entry和context)
 entry 对象是用于 webpack 查找启动并构建 bundle。其上下文是入口文件所处的目录的绝对路径的字符串。
 
 context: 基础目录,绝对路径
@@ -34,7 +34,7 @@ entry: 起点或是应用程序的起点入口。进入入口起点后，webpack
 ```
 ![图片](./imgs/obj-entry.png)
 
-### output
+## output
 
 配置 output 选项可以控制 webpack 如何向硬盘写入编译文件。
 
