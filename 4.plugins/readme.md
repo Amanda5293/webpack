@@ -31,6 +31,6 @@ module.exports = {
 
 ```
 
-[plugins](https://www.webpackjs.com/concepts/)
+[插件配置](https://www.webpackjs.com/guides/output-management/)
 
 [更多插件](https://www.webpackjs.com/plugins/)
