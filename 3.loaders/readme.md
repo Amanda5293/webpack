@@ -28,7 +28,7 @@
   }
 
  ```
- ![图片](./imgs/img-file-loader.png)
+ ![图片](https://github.com/Amanda5293/webpack/blob/master/3.loaders/imgs/img-file-loader.PNG)
 
  url-loader的使用：
  ```
@@ -46,8 +46,8 @@
     ]
   }
  ```
- ![图片](./imgs/img-url-loader.png)
- ![图片](./imgs/img-url-loader-html.png)
+ ![图片](https://github.com/Amanda5293/webpack/blob/master/3.loaders/imgs/img-url-loader.PNG)
+ ![图片](https://github.com/Amanda5293/webpack/blob/master/3.loaders/imgs/img-url-loader-html.PNG)
 
 ## 对样式文件的处理
 
