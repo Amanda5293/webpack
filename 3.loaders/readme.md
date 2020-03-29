@@ -125,7 +125,7 @@ webpack中使用babel需要通过 babel-loader 来作为 babel 和 webpack间的
     [
       "@babel/preset-env",
       {
-        "useBuiltIns": "usage", // 这个选项用于配置如何处理polyfill
+        "useBuiltIns": "usage", // 这个选项用于配置如何处理polyfill, 在每个文件的顶部添加此文件中使用但目标环境不支持的功能的polyfill导入
         "targets": "> 0.25%, not dead",
         "corejs": 3
       }
