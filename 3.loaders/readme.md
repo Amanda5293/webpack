@@ -89,6 +89,58 @@ Notes:
     }
   ```
 
+## babel-loader
+
+[Babel](https://babel.docschina.org/docs/en/) 是一个工具链，主要用于在旧的浏览器或环境中将 ECMAScript 2015+ 代码转换为向后兼容版本的 JavaScript 代码; babel主要包含三个部分，解析、转换以及生成。 babel 本身不提供转换工具，需要通过一些plugins来实现。一般都会通过presets进行plugins包的预设
+
+@babel/core: babel的核心
+
+@babel/preset-env: 根据指定的环境预设一些插件包；可以进行一些语法的转换，比如 箭头函数
+
+@babel/polyfill: 支持更多的api的转换，比如 Promise Map ... 实例上的方法 includes 等
+
+@babel/plugin-transform-runtime: 可以重用babel中的助手函数, 这些方法都将引用@babel/runtime模块内容来避免在编译的输出中重复出现；@babel/polyfill会污染全局，而使用@babel/plugin-transform-runtime不会
+
+webpack中使用babel需要通过 babel-loader 来作为 babel 和 webpack间的桥梁。
+
+1. 首先需要安装babel 和 babel-loader: npm install @babel/core babel-loader -D
+2. 在配置文件中增加babel-loader的配置
+```
+ module: {
+   rules: [
+     {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      use: 'babel-loader'
+     }
+   ]
+  }
+
+```
+3. 安装@babel/preset-env、@babel/plugin-transform-runtime(-D) 以及 @babel/runtime(--save)
+3. 在与配置文件同级的目录下增加babel的配置文件 .babelrc
+```
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage", // 这个选项用于配置如何处理polyfill
+        "targets": "> 0.25%, not dead",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "corejs": 3 // @babel/runtime --> @babel/runtime-corejs3
+    }]
+  ]
+}
+
+```
+
+
 [loader配置](https://www.webpackjs.com/guides/asset-management/)
 
 [更多loader](https://www.webpackjs.com/loaders/)

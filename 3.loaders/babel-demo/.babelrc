@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage", // 这个选项用于配置如何处理polyfill
+        "targets": "> 0.25%, not dead",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "corejs": 3
+    }]
+  ]
+}
