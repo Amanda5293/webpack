@@ -8,8 +8,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, '../build/assets'),
     filename: '[hash].js'
-  },
-  devtool: 'cheap-module-eval-source-map'
+  }
 }
 
 module.exports = merge(common, config);
