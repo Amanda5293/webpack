@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import", // 动态引入
+    [
+      "@babel/plugin-transform-runtime"
+    ]
+  ]
+}
