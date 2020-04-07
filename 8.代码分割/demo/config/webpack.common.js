@@ -48,7 +48,7 @@ module.exports = {
           test: /[\\/]node_modules[\\/]_lodash@4.17.15@lodash[\\/]/,
           priority: 0, // 一个模块可以属于多个缓存组。优化将首选优先级较高的缓存组
           // filename: 'vendors.js',  // 拆分后的文件名
-          name: '/common/lodash', // 块名 chunk名 如果和entry里的入口点相同则entry里的会被删除
+          name: 'common/lodash', // 块名 chunk名 如果和entry里的入口点相同则entry里的会被删除
           reuseExistingChunk: true
         },
         default: {

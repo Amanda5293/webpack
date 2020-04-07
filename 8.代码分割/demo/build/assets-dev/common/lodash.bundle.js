@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["/common/lodash"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common/lodash"],{
 
 /***/ "./node_modules/_lodash@4.17.15@lodash/lodash.js":
 /*!*******************************************************!*\
