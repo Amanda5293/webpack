@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{tjUo:function(n,o,e){"use strict";e.r(o);e("kwIx");var t=e("ORyx"),d=e.n(t),c=document.createElement("div"),i=d.a.join(["Hello","World"],"~_~");c.innerHTML=i,document.body.append(c)}},[["tjUo",2,0]]]);
